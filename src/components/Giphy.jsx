@@ -23,7 +23,7 @@ const Giphy = () => {
       try {
         const results = await axios("https://api.giphy.com/v1/gifs/trending", {
           params: {
-            api_key: "yh5MSNCTNgUuIfS2abO4NQ5m4QSjgeQT",
+            api_key: "xxxxxxxxxxxxxxxxxxxxx",
             limit: 100,
           },
         });
@@ -79,7 +79,7 @@ const Giphy = () => {
     try {
       const results = await axios("https://api.giphy.com/v1/gifs/search", {
         params: {
-          api_key: "yh5MSNCTNgUuIfS2abO4NQ5m4QSjgeQT",
+          api_key: "XXXXXXXXXXXXXXXX",
           q: search,
           limit: 100,
         },
